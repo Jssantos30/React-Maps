@@ -1,11 +1,11 @@
-import { BtnMyLocation, MapView, ReactLogo, SearchBar } from '../components'
+import { BtnMyLocation, MapView, ReactLogo, SearchBar, SasoftcoLogo } from '../components'
 
 export const HomeScreen = () => {
     return (
         <div>
             <MapView />
             <BtnMyLocation />
-            <ReactLogo />
+            <SasoftcoLogo />
             <SearchBar />
         </div>
     )
